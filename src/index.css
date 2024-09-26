@@ -1,13 +1,39 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* src/index.css or src/components/FeaturesSection.css */
+
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem; /* Increase font size for titles */
+}
+
+.card-text {
+  font-size: 1rem; /* Adjust font size for descriptions */
+}
+
+/* Optional - Responsive adjustments */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.25rem; /* Smaller title on mobile */
+  }
 }
