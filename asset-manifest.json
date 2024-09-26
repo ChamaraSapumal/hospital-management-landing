@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hospital-management-landing/static/css/main.1eb240e4.css",
-    "main.js": "/hospital-management-landing/static/js/main.f94a782c.js",
+    "main.js": "/hospital-management-landing/static/js/main.74d276da.js",
     "static/js/453.74aab5ff.chunk.js": "/hospital-management-landing/static/js/453.74aab5ff.chunk.js",
     "index.html": "/hospital-management-landing/index.html",
     "main.1eb240e4.css.map": "/hospital-management-landing/static/css/main.1eb240e4.css.map",
-    "main.f94a782c.js.map": "/hospital-management-landing/static/js/main.f94a782c.js.map",
+    "main.74d276da.js.map": "/hospital-management-landing/static/js/main.74d276da.js.map",
     "453.74aab5ff.chunk.js.map": "/hospital-management-landing/static/js/453.74aab5ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1eb240e4.css",
-    "static/js/main.f94a782c.js"
+    "static/js/main.74d276da.js"
   ]
 }
